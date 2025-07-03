@@ -115,7 +115,7 @@ DB_URL = "mysql+pymysql://<db_username>:<db_password>@localhost:3306/todo"
 
 ### Running in Development Mode
 ```bash
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+uvicorn main:app --reload
 ```
 
 ### Project Features

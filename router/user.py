@@ -4,7 +4,7 @@ from typing import Annotated,List
 import models
 from sqlalchemy.orm import Session
 from db.config import get_db
-from Todo.schemas.serializers import UserResponseSerializer, UserCreateSerializer
+from schemas.serializers import UserResponseSerializer, UserCreateSerializer
 
 api=APIRouter()
 db_dependency = Annotated[Session, Depends(get_db)]

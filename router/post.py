@@ -4,7 +4,7 @@ import models
 from sqlalchemy.orm import Session
 from db.config import get_db
 from fastapi import APIRouter
-from Todo.schemas.serializers import PostResponseSerializer, PostCreateSerializer
+from schemas.serializers import PostResponseSerializer, PostCreateSerializer
 
 api = APIRouter()
 
